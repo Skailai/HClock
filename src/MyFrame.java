@@ -14,7 +14,6 @@ public class MyFrame extends JFrame{
         this.setResizable(false);
         this.setLayout(new FlowLayout());
 
-
         dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
 
         time = getTime();
